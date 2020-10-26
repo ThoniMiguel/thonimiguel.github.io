@@ -1,0 +1,56 @@
+/* @import url('https://fonts.googleapis.com/css?family="Montserrat:500"'); */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.title {
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+body {
+  background-color: #24252a;
+}
+
+.penguin-logo {
+  height: 100px;
+  padding: 10px 10px;
+}
+
+li,
+a,
+button {
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: rgb(247, 139, 157);
+}
+
+.nav__link {
+  list-style: none;
+}
+
+.nav__link li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__link li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__link li a:hover {
+  color: #0088a9;
+}
