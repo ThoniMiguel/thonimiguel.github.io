@@ -12,6 +12,12 @@
   border-bottom: 1px solid white;
 }
 
+.temp {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 body {
   background-color: #24252a;
 }
@@ -34,8 +40,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  text-align: center;
   background-color: rgb(247, 139, 157);
+  min-width: 100vh;
 }
 
 .nav__link {
