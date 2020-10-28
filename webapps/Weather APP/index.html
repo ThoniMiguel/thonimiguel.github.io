@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="script.js" defer></script>
+    <title>WeatherAPP</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="title-div">
+        <h1 class="title">Weather APP</h1>
+      </div>
+      <p>Search Location</p>
+      <form class="my-form" onsubmit="preventSubmit(event)">
+        <input type="text" class="location" autofocus />
+        <button class="search">Search</button>
+      </form>
+    </div>
+    <div class="main-container second-container">
+      <div class="temp-div">
+        <h1 class="title temp"></h1>
+      </div>
+      <h2 class="local"></h2>
+      <div class="is-day">
+        <p class="textIsDay"></p>
+        <img class="imgIsDay" />
+        <p class="getDate"></p>
+        <p class="getTime"></p>
+      </div>
+    </div>
+  </body>
+</html>
