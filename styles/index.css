@@ -25,5 +25,10 @@
   cursor: pointer;
 }
 
-.index-body > h2 {
+.random-page {
+  display: none;
+}
+
+.nav-icon {
+  position: inherit;
 }

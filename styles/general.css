@@ -6,7 +6,9 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-
+.nav-icon {
+  height: 50px;
+}
 .title {
   color: white;
   border-bottom: 1px solid white;
